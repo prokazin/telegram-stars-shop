@@ -1,0 +1,12 @@
+name = "telegram-stars-shop"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+[vars]
+# Переменные окружения задаются через Cloudflare Dashboard
+# (Settings → Variables and Secrets) или через `wrangler secret put`
+
+# TELEGRAM_BOT_TOKEN — секрет
+# SUPPLIER_API_KEY — секрет
+# SUPPLIER_API_URL — переменная (например, https://api.fazercards.com/v1)
+# SUPPLIER_MARKUP_PERCENT — переменная (например, "20")
